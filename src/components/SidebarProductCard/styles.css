@@ -1,0 +1,39 @@
+.sidebar-product-card {
+  display: flex;
+  gap: 8px;
+}
+
+.sidebar-product-card__img {
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.sidebar-product-card-info b {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.sidebar-product-card-info-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.sidebar-product-card-info-actions div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.sidebar-product-card-info-actions div svg {
+  fill: #636e72;
+}

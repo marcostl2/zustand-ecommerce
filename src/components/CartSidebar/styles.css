@@ -1,0 +1,124 @@
+.cart-sidebar {
+  min-width: 100px;
+  max-width: 280px;
+  border-left: 1px solid #dfe6e9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-sidebar-wrapper {
+  position: fixed;
+  min-width: 100px;
+  max-width: 280px;
+
+  height: 100%;
+  padding: 72px 8px 16px 8px;
+}
+
+.cart-sidebar-wrapper--open {
+  width: 100%;
+}
+
+.cart-sidebar--open {
+  width: 100%;
+}
+
+.cart-sidebar-title {
+  margin-bottom: 16px;
+}
+
+.sidebar-product-card + .sidebar-product-card {
+  margin-top: 20px;
+}
+
+.cart-sidebar__toggler {
+  width: 32px;
+  height: 32px;
+  background: #fbfbfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfe6e9;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  cursor: pointer;
+  top: 32px;
+}
+
+.cart-sidebar__toggler svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cart-sidebar-list {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.cart-sidebar-alert {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid #dfe6e9;
+}
+
+.cart-sidebar-alert__badge {
+  background-color: #d63031;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -8px;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+}
+
+.cart-sidebar-checkout-wrapper {
+  position: absolute;
+  bottom: 16px;
+  /* width: 100%; */
+}
+
+.cart-sidebar-checkout-wrapper--open {
+  width: calc(100% - 16px);
+}
+
+.cart-sidebar-checkout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-sidebar-checkout__link {
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background: #3498db;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  height: 40px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.cart-sidebar-checkout__link svg {
+  fill: white;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#root,
+.App {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #fbfbfd;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  position: relative;
+  display: flex;
+}
+
+.container {
+  overflow-y: auto;
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 16px 40px;
+}
